@@ -12,7 +12,7 @@ func main() {
 	stream, err := dai.NewCompletionStream([]providers.Message{
 		{
 			Role:    "user",
-			Content: "Write a poem about Elon Musk in the style of Shakespeare",
+			Content: "Hello world",
 		},
 	})
 	if err != nil {

@@ -12,7 +12,7 @@ func main() {
 	stream, err := dai.NewCompletion([]providers.Message{
 		{
 			Role:    "user",
-			Content: "какую версию gpt ты используешь?",
+			Content: "Hello world",
 		},
 	})
 	if err != nil {
