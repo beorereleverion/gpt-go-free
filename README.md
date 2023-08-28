@@ -16,7 +16,6 @@ I've initiated the process of porting active providers and have successfully por
 | Website| Provider| gpt-3.5 | gpt-4 | Streaming | Status | Auth | Ported | Notes |
 | ------ | ------- | ------- | ----- | --------- | ------ | ---- | ------ | ----- |
 | [ai.ls](https://ai.ls) | g4f.provider.Ails | ✔️ | ❌ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ | ❌ | |
-| [bard.google.com](https://bard.google.com) | g4f.provider.Bard | ❌ | ❌ | ❌ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ✔️ | ❌ | |
 | [chatgpt.ai](https://chatgpt.ai/gpt-4/) | g4f.provider.ChatgptAi | ❌ | ✔️ | ❌ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ | ✔️ | This is not gpt-4 :( |
 | [opchatgpts.net](https://opchatgpts.net) | g4f.provider.ChatgptLogin | ✔️ | ❌ | ❌ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ | ❌ | |
 | [deepai.org](https://deepai.org) | g4f.provider.DeepAi | ✔️ | ❌ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ | ✔️ | all OK |
