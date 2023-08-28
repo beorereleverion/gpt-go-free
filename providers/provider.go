@@ -31,6 +31,7 @@ type ProviderType uint8
 const (
 	ProviderTypeDeepAI    ProviderType = 1
 	ProviderTypeChatGPTAI ProviderType = 2
+	ProviderOpchatgpts    ProviderType = 3
 )
 
 func NewProvider(t ProviderType) Provider {
@@ -39,6 +40,8 @@ func NewProvider(t ProviderType) Provider {
 		return &deepAIprovider
 	case ProviderTypeChatGPTAI:
 		return &chatGPTAIProvider
+	case ProviderOpchatgpts:
+		return &opchatgptsAIprovider
 	}
 	return nil
 }

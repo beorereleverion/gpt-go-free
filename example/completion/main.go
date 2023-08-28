@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	dai := providers.NewProvider(providers.ProviderTypeChatGPTAI)
+	dai := providers.NewProvider(providers.ProviderOpchatgpts)
 	stream, err := dai.NewCompletion([]providers.Message{
 		{
 			Role:    "user",
